@@ -9,6 +9,7 @@ Project should contain:
 - common.steps.js
 - logo-button.steps.js
 - search-bar.steps.js
+- bootcamp.feature
 - .gitigone
 - package-lock.json
 - package.jsob
