@@ -1,0 +1,164 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669824625221' stop='1669824660922'>
+    <name>Bootcamp E2E: Internet shop logo button</name>
+    <title>Bootcamp E2E: Internet shop logo button</title>
+    <test-cases>
+        <test-case start='1669824625222' status='passed' stop='1669824625222'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669824625222' status='passed' stop='1669824625227'>
+            <name>Given I am on the main page</name>
+            <title>Given I am on the main page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669824625222' status='undefined'>
+                    <name>POST /session/:sessionId/refresh</name>
+                    <title>POST /session/:sessionId/refresh</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1669824625223' status='undefined'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='1d6bc062-e6be-42c0-9bb6-52b30d3561c2-attachment.json' type='application/json' size='70'/>
+                            </attachments>
+                            <steps>
+                                <step start='1669824625225' status='undefined'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='93de44c7-627d-444f-a8d9-cd57188f04c3-attachment.json' type='application/json' size='38'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669824625227' status='broken' stop='1669824660920'>
+            <name>When I open "Best Sellers" tab</name>
+            <title>When I open "Best Sellers" tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669824625228' status='passed' stop='1669824632208'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='549a11a1-39fc-4388-bc47-022493c99ebd-attachment.json' type='application/json' size='68'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669824632208' status='passed' stop='1669824632659'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a753e34c-50d3-4c7b-a196-2ded2fdb4469-attachment.json' type='application/json' size='38'/>
+                        <attachment title='Response' source='f7665743-de74-4542-9711-d6448022f098-attachment.json' type='application/json' size='1953'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669824640913' status='passed' stop='1669824650595'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0475c243-0395-4373-84e2-c8dfe303972f-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669824651118' status='passed' stop='1669824660399'>
+                    <name>POST /session/:sessionId/element/415cacc1-fafc-4027-9f95-2628a9fd7a4d/click</name>
+                    <title>POST /session/:sessionId/element/415cacc1-fafc-4027-9f95-2628a9fd7a4d/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669824660400' status='passed' stop='1669824660718'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='9ed886bb-bdea-400f-bbd6-da924feeb4cc-attachment.json' type='application/json' size='1953'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669824660721' status='broken' stop='1669824660920'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dca6f986-aba2-49ca-aacf-6d6c8d258b0a-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='b61ebe89-5f43-45a7-952e-63fd31e2038a-attachment.json' type='application/json' size='1953'/>
+                <attachment title='Response' source='f3df3575-345b-4cd2-b0ae-499d25d4126d-attachment.json' type='application/json' size='83'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("//img[@class='modal-Website-img']") still not displayed after 20000ms</message>
+                <stack-trace>Error: element ("//img[@class='modal-Website-img']") still not displayed after 20000ms
+                    at /Users/Julian/Desktop/QA/TA-Bootcamp-E2E/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23
+                    at async Element.wrapCommandFn (/Users/Julian/Desktop/QA/TA-Bootcamp-E2E/node_modules/@wdio/utils/build/shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (/Users/Julian/Desktop/QA/TA-Bootcamp-E2E/node_modules/webdriverio/build/middlewares.js:24:32)
+                    at async Element.wrapCommandFn (/Users/Julian/Desktop/QA/TA-Bootcamp-E2E/node_modules/@wdio/utils/build/shim.js:137:29)
+                    at async Element.wrapCommandFn (/Users/Julian/Desktop/QA/TA-Bootcamp-E2E/node_modules/@wdio/utils/build/shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (/Users/Julian/Desktop/QA/TA-Bootcamp-E2E/node_modules/webdriverio/build/middlewares.js:24:32)
+                    at async Element.wrapCommandFn (/Users/Julian/Desktop/QA/TA-Bootcamp-E2E/node_modules/@wdio/utils/build/shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669824660920' status='pending' stop='1669824660921'>
+            <name>Then I lick on the logo to move back to the main page</name>
+            <title>Then I lick on the logo to move back to the main page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669824660921' status='passed' stop='1669824660922'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

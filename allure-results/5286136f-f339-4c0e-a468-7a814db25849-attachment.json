@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//a[@title=\"Today's Best Deals\"]"
+}

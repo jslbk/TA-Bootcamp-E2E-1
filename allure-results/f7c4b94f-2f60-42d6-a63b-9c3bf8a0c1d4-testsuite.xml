@@ -1,0 +1,147 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669746812972' stop='1669746873004'>
+    <name>Bootcamp E2E: Search bar</name>
+    <title>Bootcamp E2E: Search bar</title>
+    <test-cases>
+        <test-case start='1669746812972' status='passed' stop='1669746812974'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669746812975' status='broken' stop='1669746873001'>
+            <name>Given I am on the main page</name>
+            <title>Given I am on the main page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps>
+                <step start='1669746812978' status='passed' stop='1669746861414'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c285bdbf-9851-4528-9821-e78f7356af00-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='2d0495c0-cd73-4568-86a2-4c20956021c5-attachment.json' type='application/json' size='1948'/>
+                    </attachments>
+                    <steps>
+                        <step start='1669746812999' status='passed' stop='1669746813239'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='66aa77e5-d5e4-480d-b43a-292bdc57a963-attachment.json' type='application/json' size='38'/>
+                                <attachment title='Response' source='f9dae26f-401c-4d26-9865-a6b5af029523-attachment.json' type='application/json' size='1948'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1669746813249' status='passed' stop='1669746861146'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='a5c33414-6aab-48ec-a52d-5f6fb4b76589-attachment.json' type='application/json' size='65'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1669746861418' status='passed' stop='1669746862177'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dc39aebd-c3ce-423c-99b5-0825de5a023d-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='e9a49053-65b4-499d-8af5-73755075aa73-attachment.json' type='application/json' size='1948'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669746862185' status='passed' stop='1669746867942'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c7a7b076-edf4-45cc-b13d-734f206abb76-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='4214a006-50b8-4ecf-ae54-cdd3f7cbb346-attachment.json' type='application/json' size='1948'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669746867964' status='passed' stop='1669746872749'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fe7d47ec-bb6d-49e3-8cfa-543d257bac9c-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='5b142d8f-1522-48a9-bfde-0e838d40b16c-attachment.json' type='application/json' size='1948'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669746872755' status='broken' stop='1669746873000'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='bb1de9f1-5222-4b4d-8502-5942b8c912db-attachment.json' type='application/json' size='65'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: function timed out, ensure the promise resolves within 60000 milliseconds</message>
+                <stack-trace>Error: function timed out, ensure the promise resolves within 60000 milliseconds
+                    at Timeout.&lt;anonymous> (/Users/Julian/Desktop/QA/TA-Bootcamp-E2E/node_modules/@cucumber/cucumber/lib/time.js:64:20)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669746873001' status='pending' stop='1669746873001'>
+            <name>When I search for a "Windows" in the middle-top search bar</name>
+            <title>When I search for a "Windows" in the middle-top search bar</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669746873001' status='pending' stop='1669746873001'>
+            <name>Then Check that at least one item appears</name>
+            <title>Then Check that at least one item appears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669746873002' status='passed' stop='1669746873003'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.110'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
