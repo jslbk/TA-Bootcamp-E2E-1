@@ -1,7 +1,7 @@
 # TA-Bootcamp-E2E-1
 
 ## Description:
-The file contains bootcamp.feature file with two scenarios to test https://www.newegg.com/ f-ty
+The file contains bootcamp.feature file with two scenarios to test https://www.newegg.com/
 
 Project should contain:
 
