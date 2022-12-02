@@ -1,4 +1,4 @@
-# TA-Bootcamp-E2E
+# TA-Bootcamp-E2E-1
 
 ## Description:
 The file contains bootcamp.feature file with two scenarios to test https://www.newegg.com/ f-ty
@@ -21,7 +21,7 @@ Make sure that you have installed yarn and WebdriverIO to execute tests. More in
 - https://yarnpkg.com/getting-started
 - https://webdriver.io/docs/gettingstarted
 
-## Test 1 @searchBar
+## Test 1: @searchBar
 - Opens the main page;
 - Sets value "Windows" on the middle top search bar;
 - Click the "Search" icon;
