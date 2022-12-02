@@ -14,7 +14,6 @@ Project should contain:
 - package.jsob
 - README.md
 - wdio.conf.js
-
 ```
 
 ## Before start:
